@@ -26,7 +26,7 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <outputDirectory>${usr_build_path}</outputDirectory>
+          <outputDirectory>${project.build.directory}</outputDirectory>
         </configuration>
         <executions>
           <execution>
